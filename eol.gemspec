@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["er.ahmad.hassan@gmail.com"]
 
   spec.summary       = "API wrapper for Exact Online"
-  spec.homepage      = "https://github.com/ahmadhasankhan/eol"
+  spec.homepage      = "https://github.com/ahmadhasankhan/eol-client"
   spec.licenses      = %w[MIT]
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(spec)/}) }
