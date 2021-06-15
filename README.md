@@ -1,4 +1,4 @@
-# Eol
+# EolClient
 
 Eol stand for ExactOnline, it's just an API wrapper for [Exact Online](https://developers.exactonline.com/).
 
