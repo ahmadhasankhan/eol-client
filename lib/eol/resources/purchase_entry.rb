@@ -1,0 +1,20 @@
+# frozen_string_literal: true
+
+module Eol
+  class PurchaseEntry
+    include Eol::Resource
+
+    def base_path
+      "purchaseentry/PurchaseEntries"
+    end
+
+    def mandatory_attributes
+      %i[journal purchase_entry_lines supplier]
+    end
+
+    def other_attributes
+      %i[currency batch_number description document due_date entry_date entry_number external_link_reference invoice_number rate reporting_period
+         reporting_year reversal VAT_amount_FC your_ref]
+    end
+  end
+end
