@@ -26,7 +26,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install Eol
+    $ gem install eol-client
 
 ## Authorization and Setup
 

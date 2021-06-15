@@ -7,7 +7,7 @@ SimpleCov.start do
   add_group 'Specs', 'spec'
 end
 
-require File.expand_path('../../lib/eol', __FILE__)
+require File.expand_path('../../lib/eol-client', __FILE__)
 
 require 'rspec'
 require 'webmock/rspec'
